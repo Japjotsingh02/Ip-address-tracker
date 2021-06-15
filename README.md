@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Github](https://github.com/Japjotsingh02/Ip-address-tracker)
 - Live Site URL: [Ip-address Tracker](https://ipadresstrackerweb.netlify.app/)
 
 ## My process
