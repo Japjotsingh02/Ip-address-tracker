@@ -40,6 +40,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://ipadresstrackerweb.netlify.app/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [Japjot singh](https://www.frontendmentor.io/profile/Japjotsingh02)
+- Twitter - [Japjot singh](https://twitter.com/Japjots62944019)
