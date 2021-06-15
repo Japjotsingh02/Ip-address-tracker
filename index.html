@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="resources/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
+  
+  <title>Frontend Mentor | IP Address Tracker</title>
+
+  <!-- Css Stylesheet link -->
+  <link rel="stylesheet" href="resources/style.css">
+
+  <!-- Map Styles link -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin=""/>
+
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+
+  <div class="container">
+    <header class="image-top"></header>
+    <div class="text-block">
+      <h1 class="header">IP Address Tracker</h1>
+
+      <form class="form flex">
+        <input type="text" placeholder="Search for any IP address or domain " class="input" required>
+        <button type="submit" class="button"><img src="resources/images/icon-arrow.svg"></button>
+      </form>
+
+      
+      <div class="wrapper flex">
+        <div class="flex column">
+          <span class="title">IP Address</span>
+          <span class="address value"></span>
+        </div>
+        <div class="flex column">
+          <span class="title">Location</span>
+          <span class="location value"></span>
+        </div>
+        <div class="flex column">
+          <span class="title">Timezone</span>
+          <span class="value"> UTC<span class="timezone"></span></span> <!-- add offset value dynamically using the API -->
+        </div>
+        <div class="flex column">
+          <span class="title">ISP</span>
+          <span class="provider value"></span>
+        </div> 
+      </div>
+    </div>
+
+    <div class="loader"></div>
+
+    <div id="weathermap"></div>
+  </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/Japjotsingh02">Japjot Singh</a>.
+    </div>
+
+    <!-- Map Script  -->
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+  crossorigin=""></script>
+
+  <script src="js/index.js"></script>
+
+</body>
+</html>
