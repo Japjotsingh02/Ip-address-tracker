@@ -81,7 +81,7 @@ let myIcon="";
 
 getMap=(info)=>{
 
-  document.getElementById('weathermap').innerHTML = "<div id='mapid' '></div>";
+  document.getElementById('weathermap').innerHTML = "<div id='mapid'></div>";
 
   mymap = L.map('mapid').setView([info.location.lat,info.location.lng], 13);
   
